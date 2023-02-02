@@ -6,13 +6,15 @@ variable "environment" {
 }
 variable "region" {
     type = string
-    default = "us-west-2"
+    default = "ap-south-1"
 }
 variable "access_key" {
     type = string
+    default = "AKIA5KI5UJG7OA5QI4PY"
 }
 variable "secret_key" {
     type = string
+    default = "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"
 }
 
 variable "cidr_blocks" {
